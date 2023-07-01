@@ -98,3 +98,9 @@ a {
   color: var(--primary-cor2);
   font-weight: 700;
 }
+@media (max-width: 376px) {
+  .container,
+  .summary-content {
+    max-width: 350px;
+  }
+}
